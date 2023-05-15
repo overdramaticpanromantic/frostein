@@ -13,7 +13,7 @@ hitSize: 8
 alwaysUnlocked: true
 rotateSpeed: 15
 itemCapacity: 25
-engineOffset: 6f
+engineOffset: 6
 
 
 weapons: [
