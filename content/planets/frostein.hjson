@@ -1,0 +1,119 @@
+//the name displayed ingame
+localizedName: Frostein
+
+//the description of the planet displayed ingame
+description: A frigid and cold planet covered in ice.
+
+//whether this is unlocked by default
+alwaysUnlocked: true
+
+//mesh used for this planet - basically defining the planet's appearance
+mesh: {
+  type: NoiseMesh
+  planet: frostein
+  seed: 12
+  divisions: 6
+  color1: b6dfe2
+  color2: 61bcc4
+  radius: 1.2
+  octaves: 3
+  persistence: 0.96
+  scale: 0.81
+  mag: 1
+}
+
+//mesh used for cloud generation
+cloudMesh: {
+  type: HexSkyMesh
+  planet: frostein
+  seed: 53
+  speed: 0.6
+  radius: 0.08
+  divisions: 7
+  color: eafffd7e
+  octaves: 3
+  persistence: 0.75
+  scl: 1.1
+  thresh: 0.7
+}
+
+//whether or not you can launch to the numbered sectors on this planet
+allowLaunchToNumbered: false
+
+//generator for numbered sectors - not technically needed here because of allowLaunchToNumbered: false
+generator: {
+  type: PlanetGenerator
+  octaves: 3
+  persistence: 0.52
+  scale: 22
+  mag: 0.721
+  thresh: 1.152
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+
+//how big each sector hexagon is
+sectorSize: 1
+
+//launch and invasion params
+allowLaunchSchematics: true
+allowLaunchLoadout: true
+allowSectorInvasion: true
+
+//the first sector on this planet
+startSector: 0
+
+//orbit and camera params
+orbitSpacing: 4
+radius: 1.2
+minZoom: 1.5
+
+//whether to draw the orbit line
+drawOrbit: true
+//atmosphere params
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+
+//whether this planet can be launched to
+accessible: false
+
+orbitRadius: 24
+
+//whether to use the day-night-cycle
+updateLighting: false
+
+//seed used for sector generation
+sectorSeed: 1941
+
+//self explanatory
+bloom: false
+visible: true
+atmosphereColor: 5992af
+iconColor: 4b64a9
+hasAtmosphere: true
+
+//whether to allow waves to be simulated
+//general wave params
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+
+//if true, the base is built with a shockwave like on erekir
+prebuildBase: false
+
+//also self explanatory
+defaultCore: core-shard
+parent: sun
+solarSystem: sun
+
+//possible planets to launch to from this one. not really working since interplanetary accelerator is disabled.
+launchCandidates: []
+
+//items visible on this planet. everything that is NOT in here will be unavailable.
+itemWhitelist: ["copper"]
