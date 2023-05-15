@@ -2,7 +2,7 @@
 localizedName: Frostein
 
 //the description of the planet displayed ingame
-description: A frigid and cold planet covered in ice.
+description: A frigid, cold planet. Few natural resources, high enemy presence. 
 
 //whether this is unlocked by default
 alwaysUnlocked: true
@@ -13,8 +13,8 @@ mesh: {
   planet: frostein
   seed: 12
   divisions: 6
-  color1: b6dfe2
-  color2: 61bcc4
+  color1: e0eeef
+  color2: d5f4f7
   radius: 1.2
   octaves: 3
   persistence: 0.96
@@ -30,7 +30,7 @@ cloudMesh: {
   speed: 0.6
   radius: 0.08
   divisions: 7
-  color: eafffd7e
+  color: 5d696a
   octaves: 3
   persistence: 0.75
   scl: 1.1
@@ -94,7 +94,7 @@ sectorSeed: 1941
 //self explanatory
 bloom: false
 visible: true
-atmosphereColor: 5992af
+atmosphereColor: a9a9a9
 iconColor: 4b64a9
 hasAtmosphere: true
 
@@ -105,7 +105,7 @@ clearSectorOnLose: true
 allowWaves: true
 
 //if true, the base is built with a shockwave like on erekir
-prebuildBase: false
+prebuildBase: true
 
 //also self explanatory
 defaultCore: core-shard
