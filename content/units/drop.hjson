@@ -31,7 +31,8 @@ weapons: [
     }
     name: drop-weapon
     shootSound: spray
-    reload: 12
+    reload: 6
+    top: false
     x: 2.75
     y: 1
   }
