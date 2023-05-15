@@ -21,20 +21,7 @@ weapons: [
       splashDamageRadius: 8
       status: wet
       statusDuration: 120
-    }
-    reload: 12
-  }
-  {
-   bullet: {
-      type: LiquidBulletType
-      speed: 2
-      lifetime: 120
-      liquid: water
-      damage: 2
-      splashDamage: 1
-      splashDamageRadius: 8
-      status: wet
-      statusDuration: 120
+      shootSound: spray
     }
     reload: 12
   }
