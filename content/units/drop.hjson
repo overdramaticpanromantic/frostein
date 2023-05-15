@@ -1,12 +1,16 @@
-name: Drop
+name: drop
 description: Defends the Cloud core from enemies. Builds structures.
 health: 120
 armor: 1
 speed: 2
 flying: true
 buildSpeed: 0.5
-mineSpeed: 5.0
+mineSpeed: 5
 mineTier: 1
+drag: 0.05
+accel: 0.1
+hitSize: 8
+alwaysUnlocked: true
 
 
 weapons: [
@@ -21,8 +25,11 @@ weapons: [
       splashDamageRadius: 8
       status: wet
       statusDuration: 120
-      shootSound: spray
     }
+    name: drop-weapon
+    shootSound: spray
     reload: 12
+    x: 2.75
+    y: 1
   }
 ]
