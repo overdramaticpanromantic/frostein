@@ -13,7 +13,7 @@ weapons: [
   {
     bullet: {
       type: LiquidBulletType
-      speed: 2
+      speed: 3.5
       lifetime: 120
       liquid: water
       damage: 2
