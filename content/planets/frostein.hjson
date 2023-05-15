@@ -94,7 +94,7 @@ sectorSeed: 1941
 //self explanatory
 bloom: false
 visible: true
-atmosphereColor: a9a9a9
+atmosphereColor: c7dde7
 iconColor: 4b64a9
 hasAtmosphere: true
 
