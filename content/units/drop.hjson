@@ -1,1 +1,41 @@
+name: Drop
+description: Defends the Cloud core from enemies. Builds structures.
+health: 120
+armor: 1
+speed: 2
+flying: true
+buildSpeed: 0.5
+mineSpeed: 5.0
+mineTier: 1
 
+
+weapons: [
+  {
+    bullet: {
+      type: LiquidBulletType
+      speed: 2
+      lifetime: 120
+      liquid: water
+      damage: 2
+      splashDamage: 1
+      splashDamageRadius: 8
+      status: wet
+      statusDuration: 120
+    }
+    reload: 12
+  }
+  {
+   bullet: {
+      type: LiquidBulletType
+      speed: 2
+      lifetime: 120
+      liquid: water
+      damage: 2
+      splashDamage: 1
+      splashDamageRadius: 8
+      status: wet
+      statusDuration: 120
+    }
+    reload: 12
+  }
+]
