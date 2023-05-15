@@ -13,8 +13,8 @@ mesh: {
   planet: frostein
   seed: 12
   divisions: 6
-  color1: b6dfe2
-  color2: 61bcc4
+  color1: fffafa
+  color2: f3f6fb
   radius: 1.2
   octaves: 3
   persistence: 0.96
