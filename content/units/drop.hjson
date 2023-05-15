@@ -11,6 +11,9 @@ drag: 0.05
 accel: 0.1
 hitSize: 8
 alwaysUnlocked: true
+rotateSpeed: 15
+itemCapacity: 25
+engineOffset: 6f
 
 
 weapons: [
