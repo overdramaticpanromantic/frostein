@@ -1,0 +1,25 @@
+name: Incurse
+description: Throws electrical bolts at adjacent enemies.
+size: 2
+type: PowerTurret
+range: 32
+reload: 90
+rotateSpeed: 0
+recoil: 0
+
+
+consumes: {
+  power: 1.5
+}
+
+
+shoot: {
+  type: ShootSpread
+  shots: 8
+  spread: 45
+}
+shootType: {
+  type: LightningBulletType
+  lightningLength: 4
+  lightningDamage: 16
+}
