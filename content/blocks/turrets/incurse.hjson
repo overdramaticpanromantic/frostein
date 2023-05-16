@@ -8,6 +8,9 @@ rotateSpeed: 0
 recoil: 0
 alwaysUnlocked: true
 category: turret
+squareSprite: false
+shootCone: 360
+shootY: 0
 requirements: []
 
 
