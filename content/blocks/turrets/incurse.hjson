@@ -1,6 +1,7 @@
 name: Incurse
 description: Throws electrical bolts at adjacent enemies.
 size: 2
+health: 1150
 type: PowerTurret
 range: 64
 reload: 90
