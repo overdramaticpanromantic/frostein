@@ -29,3 +29,9 @@ shootType: {
   lightningLength: 16
   lightningDamage: 16
 }
+
+
+drawer: {
+  type: DrawTurret,
+  basePrefix: empty-base
+}
