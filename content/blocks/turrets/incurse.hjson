@@ -6,6 +6,9 @@ range: 32
 reload: 90
 rotateSpeed: 0
 recoil: 0
+alwaysUnlocked: true
+category: turret
+requirements: []
 
 
 consumes: {
