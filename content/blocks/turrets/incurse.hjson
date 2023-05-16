@@ -29,6 +29,7 @@ shootType: {
   type: LightningBulletType
   lightningLength: 16
   lightningDamage: 16
+  collidesAir: false
 }
 
 
