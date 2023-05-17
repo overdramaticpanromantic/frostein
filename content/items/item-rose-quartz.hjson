@@ -3,3 +3,4 @@ description: Crystalline. Useful as a basic electronic component.
 cost: 0.4
 color: fdd2c8
 research: "item-magnetite"
+hardness: 1
