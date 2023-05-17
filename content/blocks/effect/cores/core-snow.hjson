@@ -10,3 +10,7 @@ health: 1600
 itemCapacity: 2400
 unitCapModifier: 8
 category: effect
+requirements: [
+  magnetite/1200,
+  rose-quartz/950
+]
