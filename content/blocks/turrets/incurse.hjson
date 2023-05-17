@@ -43,3 +43,6 @@ drawer: {
   type: DrawTurret
   basePrefix: empty-
 }
+
+
+research: core-snow
