@@ -14,3 +14,8 @@ requirements: [
   item-magnetite/1200,
   item-rose-quartz/950
 ]
+research: {
+  root: true
+  name: Frostein
+  requiresUnlock: false
+}
