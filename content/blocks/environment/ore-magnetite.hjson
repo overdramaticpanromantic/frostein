@@ -1,0 +1,7 @@
+type: OreBlock
+localizedName: Magnetite
+description: Deposits of raw Magnetite ore.
+itemDrop: item-magnetite
+hasColor: true
+mapColor: 5b7180
+variants: 3
