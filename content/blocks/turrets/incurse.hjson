@@ -40,6 +40,6 @@ shootType: {
 
 
 drawer: {
-  type: DrawTurret,
+  type: DrawTurret
   basePrefix: empty-
 }
