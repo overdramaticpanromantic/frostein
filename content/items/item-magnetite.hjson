@@ -3,4 +3,4 @@ description: Mildly magnetic. Can be refined for further uses.
 cost: 0.7
 color: 44515a
 charge: 0.25
-research: ["core-snow"]
+research: "core-snow"
