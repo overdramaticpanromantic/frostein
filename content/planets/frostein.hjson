@@ -116,4 +116,4 @@ solarSystem: sun
 launchCandidates: []
 
 //items visible on this planet. everything that is NOT in here will be unavailable.
-itemWhitelist: ["copper"]
+itemWhitelist: ["item-magnetite", "item-rose-quartz"]
