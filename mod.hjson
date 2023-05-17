@@ -1,6 +1,21 @@
-name: frostein
-displayName: Frostein
-version: 1
-minGameVersion: 144.1
-author: overdramaticpanromantic / .Frankie#8819
-description: Frigid & frozen over. Can you beat the extreme cold, and rise to the top?
+{
+    displayName : Frostein
+    repo : overdramaticpanromantic/frostein
+    name : frostein
+
+    author:
+        '''
+        Developers:
+        - Code: overdramaticpanromantic & Fresh791
+        - Sprites: overdramaticpanromantic & Fresh791
+        '''
+
+    description:
+        '''
+        A frigid & frozen-over planet, with a brand-new tech tree. Can you rise to the top?
+        '''
+
+    subtitle: "In active development!"
+    minGameVersion : 144.1
+    version : "1"
+}
