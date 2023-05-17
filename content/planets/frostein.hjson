@@ -108,7 +108,7 @@ allowWaves: true
 prebuildBase: true
 
 //also self explanatory
-defaultCore: core-shard
+defaultCore: core-snow
 parent: sun
 solarSystem: sun
 
