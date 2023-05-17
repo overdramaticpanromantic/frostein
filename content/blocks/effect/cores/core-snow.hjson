@@ -11,6 +11,6 @@ itemCapacity: 2400
 unitCapModifier: 8
 category: effect
 requirements: [
-  magnetite/1200,
-  rose-quartz/950
+  item-magnetite/1200,
+  item-rose-quartz/950
 ]
