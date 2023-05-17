@@ -16,8 +16,8 @@ outlineIcon: false
 shootSound: spark
 targetAir: false
 requirements: [
-  item-magnetite/75,
-  item-rose-quartz/55
+  item-rose-quartz/75,
+  item-magnetite/55
 ]
 heatColor: ffffff4D
 
