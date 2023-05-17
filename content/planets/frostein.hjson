@@ -62,9 +62,9 @@ generator: {
 sectorSize: 1
 
 //launch and invasion params
-allowLaunchSchematics: true
-allowLaunchLoadout: true
-allowSectorInvasion: true
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
 
 //the first sector on this planet
 startSector: 0
