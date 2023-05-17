@@ -12,6 +12,7 @@ category: turret
 squareSprite: false
 shootCone: 360
 shootY: 0
+outline: false
 shootSound: spark
 targetAir: false
 requirements: [
