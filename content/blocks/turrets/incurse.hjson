@@ -13,7 +13,10 @@ squareSprite: false
 shootCone: 360
 shootY: 0
 targetAir: false
-requirements: []
+requirements: [
+  magnetite/75,
+  rose-quartz/55
+]
 heatColor: ffffff4D
 
 
