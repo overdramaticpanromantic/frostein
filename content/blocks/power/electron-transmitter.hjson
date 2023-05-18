@@ -1,0 +1,17 @@
+type: BeamNode
+name: Electron Transmitter
+description: Transmits power to other blocks orthogonally. Capable of storing small amounts of power.
+health: 105
+size: 1
+consumesPower: true
+outputsPower: true
+consumes: {
+  powerBuffered: 1000
+} 
+range: 10
+requirements: [
+  item-magnetite/6
+  item-rose-quartz/4
+]
+category: power
+research: core-snow
