@@ -5,8 +5,6 @@ health: 105
 size: 1
 consumesPower: true
 outputsPower: true
-laserColor1: ffffff
-laserColor2: cccccc
 consumes: {
   powerBuffered: 1000
 } 
