@@ -5,7 +5,7 @@ size: 3
 tier: 1
 liquidCapacity: 5
 drillTime: 100
-spinnerSpeed: 720
+rotateSpeed: 720
 consumes: {
   power: 1.5
   liquid: {
