@@ -1,1 +1,10 @@
-
+name: Basic Quarry
+description: Drills deep into the planet to extract minerals at high rates. Requires power.
+type: Drill
+size: 3
+tier: 1
+liquidCapacity: 5
+drillTime: 100
+consumes: {
+  liquid: "water/0.2"
+}
