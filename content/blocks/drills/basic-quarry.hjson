@@ -5,6 +5,7 @@ size: 3
 tier: 1
 liquidCapacity: 5
 drillTime: 100
+spinnerSpeed: 720
 consumes: {
   power: 1.5
   liquid: {
@@ -14,9 +15,9 @@ consumes: {
     booster: true
   }
 }
-requirements: {
-  item-magnetite: 35
-  item-rose-quartz: 25
-}
+requirements: [
+  item-magnetite/35
+  item-rose-quartz/25
+]
 category: production
 research: core-snow
