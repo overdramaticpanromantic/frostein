@@ -4,7 +4,7 @@ type: Drill
 size: 3
 tier: 1
 liquidCapacity: 5
-drillTime: 100
+drillTime: 300
 rotateSpeed: 15
 consumes: {
   power: 1.5
