@@ -6,6 +6,7 @@ health: 120
 liquidCapacity: 15
 leaks: true
 liquidPressure: 1.5
+bridgeReplacement: insulated-bridge-conduit
 requirements: [
   item-magnetite/2
 ]
