@@ -3,7 +3,6 @@ type: ThermalGenerator
 attribute: steam
 size: 3
 category: power
-requirements:
 minEfficiency: 8.999999999
 powerProduction: 0.666666667
 boostScale: 0.111111111
