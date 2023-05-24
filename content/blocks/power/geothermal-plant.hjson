@@ -1,1 +1,8 @@
-
+name: Geothermal Plant
+type: ThermalGenerator
+attribute: steam
+minEfficiency: 8
+powerProduction: 40
+efficiencyScale: 0.111111111
+displayEfficiency: false
+outputLiquid: water/0.0111111111
