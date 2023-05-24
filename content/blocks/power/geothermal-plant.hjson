@@ -3,6 +3,7 @@ type: ThermalGenerator
 attribute: steam
 size: 3
 category: power
+hasLiquids: true
 minEfficiency: 8.999999999
 displayEfficiency: false
 powerProduction: 0.666666667
