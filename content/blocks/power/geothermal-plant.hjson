@@ -5,7 +5,7 @@ attribute: steam
 size: 3
 category: power
 hasLiquids: true
-minEfficiency: 1
+minEfficiency: 8
 displayEfficiency: false
 powerProduction: 0.666666667
 displayEfficiencyScale: 0.111111111
