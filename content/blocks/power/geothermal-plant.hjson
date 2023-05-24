@@ -27,10 +27,9 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawBlurSpin
+      type: DrawRegion
       suffix: -rotator
       rotateSpeed: 5.8
-      blurThresh: 0.01
     }
   ]
 }
