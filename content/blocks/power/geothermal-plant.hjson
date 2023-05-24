@@ -4,11 +4,17 @@ attribute: steam
 size: 3
 category: power
 minEfficiency: 8.999999999
+displayEfficiency: false
 powerProduction: 0.666666667
+displayEfficiencyScale: 0.111111111
 boostScale: 0.111111111
+effectChance: 0.04
+ambientSound: hum
+ambientSoundVolume: 0.06
 outputLiquid: water/0.0111111111
 research: core-snow
 requirements: [
   item-magnetite/40
   item-rose-quartz/35
 ]
+generateEffect: turbinegenerate
