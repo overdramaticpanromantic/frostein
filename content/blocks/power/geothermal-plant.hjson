@@ -6,8 +6,7 @@ category: power
 requirements:
 minEfficiency: 8.999999999
 powerProduction: 0.666666667
-efficiencyScale: 0.111111111
-displayEfficiency: false
+boostScale: 0.111111111
 outputLiquid: water/0.0111111111
 research: core-snow
 requirements: [
