@@ -1,6 +1,7 @@
 name: Geothermal Plant
 type: ThermalGenerator
 attribute: steam
+size: 3
 category: power
 requirements:
 minEfficiency: 8
