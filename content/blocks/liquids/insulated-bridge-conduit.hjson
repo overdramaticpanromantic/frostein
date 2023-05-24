@@ -1,0 +1,12 @@
+name: Insulated Bridge Conduit
+description: Transports fluids over blocks and terrain. Insulated to prevent freezing.
+requirements: [
+  item-rose-quartz/8
+  item-magnetite/20
+]
+liquidCapacity: 10
+health: 80
+type: DirectionLiquidBridge
+range: 4
+hasPower: false
+research: insulated-conduit
