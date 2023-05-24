@@ -1,0 +1,10 @@
+name: Insulated Conduit
+type: conduit
+category: liquid
+description: Transports fluids. Insulated to prevent freezing.
+health: 45
+liquidPressure: 1
+requirements: [
+  item-magnetite/2
+]
+research: core-snow
