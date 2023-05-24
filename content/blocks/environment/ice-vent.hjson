@@ -1,1 +1,4 @@
-
+name: Ice Vent
+type: SteamVent
+blendGroup: ice
+attributes: steam/1
