@@ -5,6 +5,5 @@ parent: ice
 effect: ventSteam
 effectColor: ffffffCC
 attributes: {
-   heat: 2,
-   water: -1
+   steam: 1
 }
