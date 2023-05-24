@@ -4,6 +4,7 @@ requirements: [
   item-rose-quartz/8
   item-magnetite/20
 ]
+buildVisibility: shown
 liquidCapacity: 10
 category: liquid
 health: 80
