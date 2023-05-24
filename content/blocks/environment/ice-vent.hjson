@@ -1,6 +1,7 @@
 name: Ice Vent
 type: SteamVent
 blendGroup: ice
+parent: ice
 attributes: steam/1
 effect: ventSteam
 effectColor: ffffffCC
