@@ -1,9 +1,11 @@
 name: Insulated Conduit
-type: conduit
+type: ArmoredConduit
 category: liquid
 description: Transports fluids. Insulated to prevent freezing.
-health: 45
-liquidPressure: 1
+health: 120
+liquidCapacity: 15
+leaks: true
+liquidPressure: 1.5
 requirements: [
   item-magnetite/2
 ]
