@@ -2,3 +2,5 @@ name: Snow Vent
 type: SteamVent
 blendGroup: snow
 attributes: steam/1
+effect: ventSteam
+effectColor: ffffffCC
