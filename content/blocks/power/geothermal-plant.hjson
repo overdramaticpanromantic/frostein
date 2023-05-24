@@ -4,7 +4,7 @@ attribute: steam
 size: 3
 category: power
 requirements:
-minEfficiency: 8
+minEfficiency: 8.999999999
 powerProduction: 40
 efficiencyScale: 0.111111111
 displayEfficiency: false
