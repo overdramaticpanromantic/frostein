@@ -1,10 +1,11 @@
 name: Geothermal Plant
 type: ThermalGenerator
+description: Condenses Frostein's subsurface steam into water, generating power in the process.
 attribute: steam
 size: 3
 category: power
 hasLiquids: true
-minEfficiency: 8.999999999
+minEfficiency: 8.5
 displayEfficiency: false
 powerProduction: 0.666666667
 displayEfficiencyScale: 0.111111111
