@@ -20,3 +20,17 @@ requirements: [
   item-rose-quartz/35
 ]
 generateEffect: turbinegenerate
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawBlurSpin
+      suffix: -rotator
+      rotateSpeed: 5.8
+      blurThresh: 0.01
+    }
+  ]
+}
