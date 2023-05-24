@@ -1,9 +1,6 @@
 name: Geothermal Plant
 type: ThermalGenerator
-attributes: {
-   heat: 2,
-   water: -1
-}
+attribute: steam
 size: 3
 category: power
 requirements:
