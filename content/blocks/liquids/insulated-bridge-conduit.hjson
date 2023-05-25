@@ -6,6 +6,7 @@ requirements: [
   item-magnetite/20
 ]
 hasPower: false
+buildVisibility: shown
 underBullets: true
 category: liquid
 health: 80
