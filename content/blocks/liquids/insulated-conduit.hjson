@@ -2,6 +2,7 @@ name: Insulated Conduit
 type: ArmoredConduit
 category: liquid
 buildVisibility: shown
+envEnabled: 1
 description: Transports fluids. Insulated to prevent freezing.
 health: 120
 liquidCapacity: 15
