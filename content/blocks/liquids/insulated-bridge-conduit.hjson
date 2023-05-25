@@ -1,4 +1,4 @@
-type: LiquidBridge
+type: DirectionLiquidBridge
 name: Insulated Bridge Conduit
 description: Transports fluids over blocks and terrain. Insulated to prevent freezing.
 size: 1
