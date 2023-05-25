@@ -8,6 +8,7 @@ liquidCapacity: 15
 leaks: true
 liquidPressure: 1.5
 bridgeReplacement: insulated-bridge-conduit
+rotBridgeReplacement: insulated-bridge-conduit
 junctionReplacement: insulated-liquid-junction
 requirements: [
   item-magnetite/2
