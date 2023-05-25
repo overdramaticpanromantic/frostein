@@ -11,4 +11,4 @@ liquidCapacity: 10
 category: liquid
 health: 80
 range: 4
-research: insulated-conduit-junction
+research: insulated-liquid-junction
