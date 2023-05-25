@@ -1,6 +1,7 @@
 type: DirectionLiquidBridge
 name: Insulated Bridge Conduit
 description: Transports fluids over blocks and terrain. Insulated to prevent freezing.
+envEnabled: 0xffffffff
 requirements: [
   item-rose-quartz/8
   item-magnetite/20
