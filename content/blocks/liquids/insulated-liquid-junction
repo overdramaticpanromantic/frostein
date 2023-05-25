@@ -1,0 +1,10 @@
+name: Insulated Liquid Junction
+description: Acts as a junction between two crossing conduits. Insulated to prevent freezing.
+size: 1
+type: LiquidJunction
+requirements: [
+  item-rose-quartz/4
+  item-magnetite/8
+]
+solid: false
+health: 120
