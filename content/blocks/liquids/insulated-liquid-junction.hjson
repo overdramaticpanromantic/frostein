@@ -8,3 +8,4 @@ requirements: [
 ]
 solid: false
 health: 120
+research: insulated-conduit
