@@ -9,5 +9,6 @@ requirements: [
   item-magnetite/8
 ]
 solid: false
+category: liquid
 health: 120
 research: insulated-conduit
