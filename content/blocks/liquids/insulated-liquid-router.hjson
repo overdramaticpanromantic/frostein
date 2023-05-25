@@ -1,6 +1,7 @@
 name: Insulated Liquid Router
 description: Routes fluids equally to all sides. Insulated to prevent freezing.
 size: 1
+health: 120
 type: LiquidRouter
 requirements: [
   item-rose-quartz/8
