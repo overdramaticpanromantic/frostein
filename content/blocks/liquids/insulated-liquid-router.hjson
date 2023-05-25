@@ -3,6 +3,7 @@ description: Routes fluids equally to all sides. Insulated to prevent freezing.
 size: 1
 health: 120
 buildVisibility: shown
+category: liquid
 envEnabled: 1
 type: LiquidRouter
 requirements: [
