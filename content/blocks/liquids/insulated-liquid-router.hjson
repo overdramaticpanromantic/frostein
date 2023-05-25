@@ -1,0 +1,11 @@
+name: Insulated Liquid Router
+description: Routes fluids equally to all sides. Insulated to prevent freezing.
+size: 1
+type: LiquidRouter
+requirements: [
+  item-rose-quartz/8
+  item-magnetite/4
+]
+research: insulated-liquid-junction
+solid: false
+liquidCapacity: 15
