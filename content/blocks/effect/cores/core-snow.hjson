@@ -1,6 +1,5 @@
 type: CoreBlock
 name: Core: Snow
-requirements: []
 isFirstTier: true
 size: 3
 squareSprite: false
@@ -18,4 +17,5 @@ research: {
   root: true
   name: Frostein
   requiresUnlock: false
+  planet: frostein
 }
