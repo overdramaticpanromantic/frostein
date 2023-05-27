@@ -1,1 +1,12 @@
-
+name: Vacuum Tube Splitter
+desc: Splits items equally across three directions. Only accepts items from the back side. Can be configured as an item sorter.
+category: distribution
+type: DuctRouter
+speed: 6
+health: 60
+solid: false
+regionRotated1: 1
+research: vacuum-tube
+requirements: [
+  item-magnetite/10
+]
