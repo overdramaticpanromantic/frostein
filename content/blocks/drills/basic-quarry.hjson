@@ -2,7 +2,7 @@ name: Basic Quarry
 description: Drills deep into the planet to extract minerals at high rates. Requires power.
 type: Drill
 size: 3
-tier: 1
+tier: 2
 liquidCapacity: 5
 drillTime: 300
 rotateSpeed: 15
@@ -20,4 +20,4 @@ requirements: [
   item-rose-quartz/25
 ]
 category: production
-research: core-snow
+research: mechanical-quarry
