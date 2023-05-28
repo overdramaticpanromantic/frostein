@@ -6,6 +6,7 @@ tier: 1
 liquidCapacity: 5
 drillTime: 750
 rotateSpeed: 3
+squareSprite: false
 consumes: {
   liquid: {
     liquid: water
