@@ -1,0 +1,21 @@
+name: Mechanical Quarry
+description: Extracts resources from the ground at low rates.
+type: Drill
+size: 2
+tier: 1
+liquidCapacity: 5
+drillTime: 750
+rotateSpeed: 3
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.05
+    optional: true
+    booster: true
+  }
+}
+requirements: [
+  item-magnetite/20
+]
+category: production
+research: core-snow
