@@ -1,0 +1,9 @@
+name: Ice Snow Vent
+type: SteamVent
+blendGroup: ice-snow
+parent: ice-snow
+effect: ventSteam
+effectColor: ffffffCC
+attributes: {
+   steam: 1
+}
