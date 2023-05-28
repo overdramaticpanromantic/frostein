@@ -3,6 +3,7 @@ type: Duct
 description: Utilizes vacuum forces to move items forward.
 health: 75
 category: distribution
+bridgeReplacement: vacuum-tube-crossing
 requirements: [
   item-magnetite/1
   item-rose-quartz/1
