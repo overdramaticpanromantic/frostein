@@ -1,0 +1,7 @@
+name: Wolfram
+description: Raw, unrefined Tungsten. Can be refined for further uses.
+cost: 1
+color: 7e8862
+charge: 0.1
+hardness: 2
+research: item-magnetite
