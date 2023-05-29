@@ -31,6 +31,8 @@ weapons: [
     fractionRepairSpeed: 0.06
     aimDst: 0
     shootCone: 15
+    healColor: ffd37f
+    laserColor: ffd37f
     
     targetUnits: false
     targetBuildings: true
@@ -44,7 +46,6 @@ weapons: [
     rotate: false
     
     bullet: {
-      type: BulletType
       maxRange: 60
     }
   }
