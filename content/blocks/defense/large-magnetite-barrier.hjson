@@ -1,0 +1,10 @@
+type: Wall
+name: Large Magnetite Barrier
+description: Protects structures from incoming damage. Occasionally releases a charge bolt.
+size: 2
+health: 1400
+requirements: [
+  item-magnetite: 32
+]
+category: defense
+research: magnetite-barrier
