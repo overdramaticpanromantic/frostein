@@ -20,3 +20,4 @@ requirements: [
 ]
 category: production
 research: core-snow
+researchCostMultiplier: 0.1
