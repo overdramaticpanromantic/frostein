@@ -8,3 +8,4 @@ requirements: [
 ]
 category: defense
 research: magnetite-barrier
+researchCostMultiplier: 0.1
