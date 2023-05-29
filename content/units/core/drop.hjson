@@ -9,7 +9,7 @@ legMoveSpace: 1
 hovering: true
 health: 175
 armor: 2
-speed: 1.4
+speed: 0.8
 hitSize: 8
 isEnemy: false
 mineSpeed: 5
