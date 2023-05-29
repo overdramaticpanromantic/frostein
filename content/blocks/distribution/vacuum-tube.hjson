@@ -5,8 +5,8 @@ health: 75
 category: distribution
 bridgeReplacement: vacuum-tube-crossing
 requirements: [
-  item-magnetite/1
-  item-rose-quartz/1
+  item-magnetite/2
 ]
 speed: 6
 research: core-snow
+researchCostMultiplier: 0.1
