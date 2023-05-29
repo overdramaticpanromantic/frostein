@@ -22,3 +22,4 @@ requirements: [
 ]
 category: production
 research: mechanical-quarry
+researchCostMultiplier: 0.1
