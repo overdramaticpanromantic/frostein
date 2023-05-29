@@ -8,3 +8,4 @@ requirements: [
 speed: 6
 health: 70
 researchCostMultiplier: 0.1
+research: vacuum-tube-splitter
