@@ -15,3 +15,4 @@ requirements: [
   item-magnetite/2
 ]
 research: core-snow
+researchCostMultiplier: 0.1
