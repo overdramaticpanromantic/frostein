@@ -12,3 +12,4 @@ solid: false
 category: liquid
 health: 120
 research: insulated-conduit
+researchCostMultiplier: 0.1
