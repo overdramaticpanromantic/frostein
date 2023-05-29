@@ -1,1 +1,10 @@
-
+type: Wall
+name: Magnetite Barrier
+description: Protects structures from incoming damage. Occasionally releases a charge bolt.
+size: 1
+health: 350
+requirements: [
+  item-magnetite: 8
+]
+category: defense
+research: core-snow
