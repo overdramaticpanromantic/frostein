@@ -13,3 +13,4 @@ category: liquid
 health: 80
 range: 4
 research: insulated-liquid-junction
+researchCostMultiplier: 0.1
