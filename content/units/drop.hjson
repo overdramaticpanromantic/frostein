@@ -1,39 +1,24 @@
 name: Drop
-description: Defends the Cloud core from enemies. Builds structures.
-health: 120
-armor: 1
-speed: 2
-flying: true
-buildSpeed: 0.5
+description: Defends the Snow core from enemies. Builds structures.
+type: legs
+legCount: 4
+legLength: 12
+legSpeed: 0.3
+legForwardScl: 0.6
+legMoveSpace: 1
+hovering: true
+health: 175
+armor: 2
+speed: 1.4
+hitSize: 8
+isEnemy: false
 mineSpeed: 5
 mineTier: 1
-drag: 0.05
-accel: 0.1
-hitSize: 8
+buildSpeed: 0.5
+drag: 0.4
+itemCapacity: 30
+// is engineOffset needed?
 alwaysUnlocked: true
-rotateSpeed: 15
-itemCapacity: 25
-engineOffset: 6
-
-
-weapons: [
-  {
-    bullet: {
-      type: LiquidBulletType
-      speed: 3.5
-      lifetime: 120
-      liquid: water
-      damage: 2
-      splashDamage: 1
-      splashDamageRadius: 8
-      status: wet
-      statusDuration: 120
-    }
-    name: drop-weapon
-    shootSound: spray
-    reload: 6
-    top: false
-    x: 2.75
-    y: 1
-  }
-]
+research: core-snow
+outlineColor: 2b3a39
+weapons: []
