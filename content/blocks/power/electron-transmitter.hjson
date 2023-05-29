@@ -15,3 +15,4 @@ requirements: [
 ]
 category: power
 research: geothermal-plant
+researchCostMultiplier: 0.1
