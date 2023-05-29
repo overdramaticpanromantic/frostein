@@ -10,3 +10,4 @@ research: vacuum-tube
 requirements: [
   item-magnetite/10
 ]
+researchCostMultiplier: 0.1
