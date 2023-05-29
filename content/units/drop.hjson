@@ -22,3 +22,4 @@ alwaysUnlocked: true
 research: core-snow
 outlineColor: 2b3a39
 weapons: []
+buildBeamOffset: 8
