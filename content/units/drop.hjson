@@ -1,7 +1,7 @@
 name: Drop
 description: Defends the Snow core from enemies. Builds structures.
 type: legs
-legCount: 4
+legCount: 6
 legLength: 12
 legSpeed: 0.3
 legForwardScl: 0.6
