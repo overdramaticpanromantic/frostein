@@ -2,3 +2,7 @@ localizedName: Frostein Test
 captureWave: 100
 planet: frostein
 sector: 0
+startingItems: [
+  item-magnetite/200
+  item-rose-quartz/100
+]
