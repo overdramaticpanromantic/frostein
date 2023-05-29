@@ -21,5 +21,32 @@ itemCapacity: 30
 alwaysUnlocked: true
 research: core-snow
 outlineColor: 2b3a39
-weapons: []
+weapons: [
+  {
+    type: RepairBeamWeapon
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    shootY: 0
+    repairSpeed: 3.1
+    fractionRepairSpeed: 0.06
+    aimDst: 0
+    shootCone: 15
+    
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    laserColor: accent
+    healColor: accent
+    x: 0
+    y: 5
+    mirror: false
+    rotate: false
+    
+    bullet: {
+      type: BulletType
+      maxRange: 60
+    }
+  }
+]
 buildBeamOffset: 5
