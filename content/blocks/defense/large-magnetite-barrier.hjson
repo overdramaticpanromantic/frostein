@@ -4,7 +4,7 @@ description: Protects structures from incoming damage. Occasionally releases a c
 size: 2
 health: 1400
 requirements: [
-  item-magnetite: 32
+  item-magnetite/32
 ]
 category: defense
 research: magnetite-barrier
