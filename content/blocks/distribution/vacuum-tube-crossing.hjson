@@ -4,7 +4,7 @@ category: distribution
 type: DuctBridge
 requirements: [
   item-magnetite/15
-  item-rose-quartz/5
 ]
 speed: 6
 health: 70
+researchCostMultiplier: 0.1
