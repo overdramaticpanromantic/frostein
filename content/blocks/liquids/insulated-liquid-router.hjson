@@ -13,3 +13,4 @@ requirements: [
 research: insulated-liquid-junction
 solid: false
 liquidCapacity: 15
+researchCostMultiplier: 0.1
