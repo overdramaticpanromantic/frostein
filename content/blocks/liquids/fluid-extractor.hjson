@@ -8,5 +8,5 @@ requirements: [
   item-magnetite/16
 ]
 health: 85
-pumpAmount: 0.083333334
+pumpAmount: 0.1
 warmupSpeed: 0.02
