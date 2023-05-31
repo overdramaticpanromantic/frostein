@@ -12,7 +12,8 @@ bridgeReplacement: insulated-bridge-conduit
 rotBridgeReplacement: insulated-bridge-conduit
 junctionReplacement: insulated-liquid-junction
 requirements: [
-  item-magnetite/2
+  item-magnetite/1
+  item-wolfram/1
 ]
 research: core-snow
 researchCostMultiplier: 0.1
