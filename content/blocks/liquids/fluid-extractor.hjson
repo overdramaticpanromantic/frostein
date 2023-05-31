@@ -1,0 +1,12 @@
+name: Fluid Extractor
+description: Pulls fluids from bodies of liquid.
+type: Pump
+size: 1
+category: liquid
+requirements: [
+  item-wolfram/8
+  item-magnetite/16
+]
+health: 85
+pumpAmount: 0.083333334
+warmupSpeed: 0.02
