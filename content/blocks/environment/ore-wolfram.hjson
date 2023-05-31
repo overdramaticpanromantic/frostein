@@ -1,6 +1,6 @@
 type: OreBlock
 localizedName: Wolfram
-description: Deposits of unrefined Wolfram ore.
+description: Accumulations of unrefined, insulative Wolfram ore.
 itemDrop: item-wolfram
 hasColor: true
 mapColor: 7e8862
