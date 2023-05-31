@@ -10,3 +10,4 @@ requirements: [
 health: 85
 pumpAmount: 0.1
 warmupSpeed: 0.02
+researchCostMultiplier: 0.1
