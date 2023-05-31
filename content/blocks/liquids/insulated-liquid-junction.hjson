@@ -5,7 +5,7 @@ buildVisibility: shown
 type: LiquidJunction
 envEnabled: 1
 requirements: [
-  item-rose-quartz/4
+  item-wolfram/4
   item-magnetite/8
 ]
 solid: false
