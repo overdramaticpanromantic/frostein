@@ -1,0 +1,7 @@
+type: OreBlock
+localizedName: Wolfram
+description: Deposits of unrefined Wolfram ore.
+itemDrop: item-wolfram
+hasColor: true
+mapColor: 7e8862
+variants: 3
