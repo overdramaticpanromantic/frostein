@@ -7,7 +7,7 @@ category: liquid
 envEnabled: 1
 type: LiquidRouter
 requirements: [
-  item-rose-quartz/8
+  item-wolfram/8
   item-magnetite/4
 ]
 research: insulated-liquid-junction
