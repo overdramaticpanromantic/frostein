@@ -9,6 +9,7 @@ requirements: [
 hasPower: false
 buildVisibility: shown
 underBullets: true
+squareSprite: false
 category: liquid
 health: 80
 range: 4
