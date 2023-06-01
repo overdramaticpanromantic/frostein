@@ -6,6 +6,7 @@ buildVisibility: shown
 squareSprite: false
 category: liquid
 envEnabled: 1
+liquidPadding: 1
 type: LiquidRouter
 requirements: [
   item-wolfram/8
