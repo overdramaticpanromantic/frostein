@@ -12,6 +12,7 @@ underBullets: true
 squareSprite: false
 category: liquid
 health: 80
+size: 1
 range: 4
 research: insulated-liquid-junction
 researchCostMultiplier: 0.1
