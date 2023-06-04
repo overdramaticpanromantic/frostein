@@ -3,6 +3,7 @@ description: Melts down Wolfram into Liquid Tungsten.
 size: 4
 health: 740
 liquidCapacity: 96
+type: GenericCrafter
 category: production
 researchCostMultiplier: 0.1
 research: {
