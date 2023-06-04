@@ -11,7 +11,6 @@ research: {
   objectives: [item-wolfram]
 }
 category: crafting
-hasLiquids: true
 
 
 requirements: [
@@ -29,6 +28,8 @@ consumes: {
   ]
 }
 outputLiquid: liquid-molten-tungsten/0.4
+hasLiquids: true
+craftTime: 60
 
 
 drawer: {
