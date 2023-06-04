@@ -11,6 +11,7 @@ research: {
   objectives: [item-wolfram]
 }
 category: crafting
+hasLiquids: true
 
 
 requirements: [
