@@ -2,8 +2,126 @@ name: Wolfram Flux Basin
 description: Melts down Wolfram into Liquid Tungsten.
 size: 4
 health: 740
+liquidCapacity: 96
+
+
 requirements: [
   item-magnetite/270
   item-rose-quartz/180
   item-wolfram/150
 ]
+
+
+consumes: {
+  power: 12
+  items: [
+    wolfram/4
+    magnetite/4
+  ]
+}
+outputLiquid: liquid-molten-tungsten/0.4
+
+
+drawer: {
+  //we are using multiple drawers so we use DrawMulti
+  type: DrawMulti
+
+  //array of used drawers. the part of the block that is drawn at the very "bottom" of the whole sprite comes first.
+  drawers: [
+    {
+      //DrawRegion draws a certain sprite; optionally with rotation
+      type: DrawRegion
+  
+      //the sprite suffix used by this drawer
+      suffix: -bottom
+    }
+    {
+      //draws a -liquid sprite by default, which specific -liquid sprite can be defined using suffix
+      type: DrawLiquidRegion
+
+      //suffix as mentioned above
+      suffix: -liquid-1
+      
+      //which liquid to draw
+      drawLiquid: liquid-molten-tungsten
+    }
+    {
+      //draws a -liquid sprite by default, which specific -liquid sprite can be defined using suffix
+      type: DrawLiquidRegion
+
+      //suffix as mentioned above
+      suffix: -liquid-2
+      
+      //which liquid to draw
+      drawLiquid: liquid-molten-tungsten
+    }
+    {
+      //Draws the default sprite of the block without any suffixes
+      type: DrawDefault
+    }
+    {
+      //Draws a glowing region. optionally set glow scale, magnitude and others - not really needed here
+      type: DrawGlowRegion
+
+      //again, the suffix of the region drawn
+      suffix: -grate-1-heat
+
+      //how this glow region blends with the rest of the block
+      blending: additive
+
+      //color of this glow region (aka heat color in this specific example), hex opacity supported
+      color: d76a6a80 
+    }
+    {
+      //Draws a glowing region. optionally set glow scale, magnitude and others - not really needed here
+      type: DrawGlowRegion
+
+      //again, the suffix of the region drawn
+      suffix: -grate-2-heat
+
+      //how this glow region blends with the rest of the block
+      blending: additive
+
+      //color of this glow region (aka heat color in this specific example), hex opacity supported
+      color: d76a6a80
+    }
+  ]
+}
+//an effect displayed whenever the crafter finishes a "batch" of it's product
+craftEffect: {
+  //the type of the effect; a RadialEffect displays a certain effect a set amount equally over a set angle
+  type: RadialEffect
+  
+  //some visual parameters
+  layer: 118
+    
+  //how far away from the middle of the block the effects are displayed 
+  lengthOffset: 12
+
+  //at which angles the effect is displayed
+  rotationSpacing: 180
+
+  //where the display of the effects begin, 0° by default
+  rotationOffset: 45
+
+  //the amount of particle instances created
+  amount: 2
+
+  //the effect created at all locations
+  effect: {
+    type: ParticleEffect
+    particles: 12
+    length: 14
+    lifetime: 50
+    cone: 20
+    useRotation: false
+    baseRotation: 45
+    sizeFrom: 2.5
+    sizeTo: 0
+    colorFrom: ffffff00
+    colorTo: ffffff88
+    interp: pow2
+    sizeInterp: pow3In
+    layer: 80
+  }
+}
