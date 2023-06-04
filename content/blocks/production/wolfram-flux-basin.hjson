@@ -15,8 +15,8 @@ requirements: [
 consumes: {
   power: 12
   items: [
-    wolfram/4
-    magnetite/4
+    item-wolfram/4
+    item-magnetite/4
   ]
 }
 outputLiquid: liquid-molten-tungsten/0.4
