@@ -9,7 +9,7 @@ research: {
   parent: core-essence
   objectives: [item-wolfram]
 }
-category: production
+category: crafting
 
 
 requirements: [
