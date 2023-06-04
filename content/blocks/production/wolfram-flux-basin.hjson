@@ -115,7 +115,7 @@ craftEffect: {
   rotationOffset: 45
 
   //the amount of particle instances created
-  amount: 2
+  amount: 8
 
   //the effect created at all locations
   effect: {
