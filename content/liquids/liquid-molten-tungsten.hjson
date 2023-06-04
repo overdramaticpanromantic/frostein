@@ -1,0 +1,7 @@
+name: Molten Tungsten
+description: Refined Tungsten in liquid form.
+temperature: 1.75
+viscosity: 0.7
+research: item-wolfram
+effect: melting
+color: 67654c
