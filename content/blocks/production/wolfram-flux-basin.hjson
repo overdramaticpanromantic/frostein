@@ -1,0 +1,9 @@
+name: Wolfram Flux Basin
+description: Melts down Wolfram into Liquid Tungsten.
+size: 4
+health: 740
+requirements: [
+  item-magnetite/270
+  item-rose-quartz/180
+  item-wolfram/150
+]
