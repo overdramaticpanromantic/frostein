@@ -9,7 +9,7 @@ rotateSpeed: 30
 recoil: 2
 category: turret
 squareSprite: false
-shootY: 40
+shootY: 0
 hasLiquids: true
 outlineIcon: true
 shootSound: laser
@@ -22,7 +22,7 @@ requirements: [
   item-wolfram/110
   item-refined-tungsten/60
 ]
-heatColor: ffffff4D
+heatColor: red
 
 
 consumes: {
