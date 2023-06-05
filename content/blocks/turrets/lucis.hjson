@@ -16,7 +16,6 @@ shootSound: laser
 targetAir: true
 chargeSound: laserCharge
 shake: 2
-coolant: consumeCoolant(0.4)
 requirements: [
   item-magnetite/460
   item-rose-quartz/340
