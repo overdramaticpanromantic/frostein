@@ -66,16 +66,6 @@ drawer: {
       drawLiquid: liquid-molten-tungsten
     }
     {
-      //draws a box shader for liquids or something
-      type: DrawLiquidTile
-      
-      //pixels from edge to do it from
-      padding: 6
-      
-      //liquid to draw
-      drawLiquid: liquid-molten-tungsten
-    }
-    {
       //Draws the default sprite of the block without any suffixes
       type: DrawDefault
     }
