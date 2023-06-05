@@ -1,0 +1,69 @@
+name: Tungsten Consolidation Chamber
+description: Consolidates Molten Tungsten into Refined Tungsten, using Cryofluid as coolant.
+size: 3
+health: 560
+liquidCapacity: 48
+type: GenericCrafter
+category: production
+researchCostMultiplier: 0.1
+research: wolfram-flux-basin
+category: crafting
+
+
+requirements: [
+  item-magnetite/180
+  item-rose-quartz/160
+  item-wolfram/95
+]
+
+
+consumes: {
+  power: 2
+  liquids: [
+    cryofluid/0.2
+    liquid-molten-tungsten/0.2
+}
+outputItem: item-refined-tungsten/4
+hasLiquids: true
+craftTime: 120
+
+
+drawer: {
+  //we are using multiple drawers so we use DrawMulti
+  type: DrawMulti
+
+  //array of used drawers. the part of the block that is drawn at the very "bottom" of the whole sprite comes first.
+  drawers: [
+    {
+      //DrawRegion draws a certain sprite; optionally with rotation
+      type: DrawRegion
+  
+      //the sprite suffix used by this drawer
+      suffix: -bottom
+    }
+    {
+      //draws a -liquid sprite by default, which specific -liquid sprite can be defined using suffix
+      type: DrawLiquidRegion
+
+      //suffix as mentioned above
+      suffix: -liquid-1
+      
+      //which liquid to draw
+      drawLiquid: cryofluid
+    }
+    {
+      //draws a -liquid sprite by default, which specific -liquid sprite can be defined using suffix
+      type: DrawLiquidRegion
+
+      //suffix as mentioned above
+      suffix: -liquid-2
+      
+      //which liquid to draw
+      drawLiquid: liquid-molten-tungsten
+    }
+    {
+      //Draws the default sprite of the block without any suffixes
+      type: DrawDefault
+    }
+  ]
+}
