@@ -9,7 +9,7 @@ rotateSpeed: 1.5
 recoil: 2
 category: turret
 squareSprite: false
-shootY: 16
+shootY: 12
 hasLiquids: true
 outlineIcon: true
 shootSound: laser
