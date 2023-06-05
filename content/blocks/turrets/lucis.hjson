@@ -11,6 +11,7 @@ category: turret
 squareSprite: false
 shootY: 12
 hasLiquids: true
+liquidCapacity: 24
 outlineIcon: true
 shootSound: laser
 targetAir: true
@@ -25,10 +26,14 @@ requirements: [
   item-refined-tungsten/60
 ]
 heatColor: c7723a
+coolantMultiplier: 1.25
 
 
 consumes: {
   power: 12
+  coolant: {
+    amount: 0.2
+  }
 }
 
 
