@@ -14,6 +14,7 @@ hitSize: 8
 isEnemy: false
 mineSpeed: 5
 mineTier: 1
+coreUnitDock: true
 buildSpeed: 0.5
 drag: 0.4
 itemCapacity: 30
