@@ -26,7 +26,6 @@ requirements: [
   item-refined-tungsten/60
 ]
 heatColor: c7723a
-coolantMultiplier: 3
 
 
 consumes: {
@@ -45,7 +44,7 @@ shoot: {
 shootType: {
   type: LaserBulletType
   length: 160
-  damage: 15
+  damage: 40
   collidesAir: true
   accurateDelay: false
   lifetime: 12
