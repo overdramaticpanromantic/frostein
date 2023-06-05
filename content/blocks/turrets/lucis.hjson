@@ -22,7 +22,7 @@ requirements: [
   item-wolfram/110
   item-refined-tungsten/60
 ]
-heatColor: red
+heatColor: c7723a
 
 
 consumes: {
