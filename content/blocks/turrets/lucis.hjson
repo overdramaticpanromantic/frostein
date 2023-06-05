@@ -5,7 +5,7 @@ health: 2100
 type: PowerTurret
 range: 160
 reload: 120
-rotateSpeed: 2.5
+rotateSpeed: 3
 recoil: 2
 category: turret
 squareSprite: false
