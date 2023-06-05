@@ -32,7 +32,7 @@ consumes: {
 
 
 shoot: {
-  firstShotDelay: 12
+  firstShotDelay: 60
   shots: 5
   shotDelay: 12
 }
