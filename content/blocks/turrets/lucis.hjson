@@ -16,6 +16,7 @@ shootSound: laser
 targetAir: true
 chargeSound: laserCharge
 shake: 2
+moveWhileCharging: false
 requirements: [
   item-magnetite/460
   item-rose-quartz/340
@@ -41,7 +42,6 @@ shootType: {
   length: 160
   damage: 35
   collidesAir: true
-  moveWhileCharging: false
   accurateDelay: false
   lifetime: 12
   chargeEffect: lancerLaserCharge
