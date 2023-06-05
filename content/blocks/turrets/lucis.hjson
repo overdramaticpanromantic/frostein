@@ -1,0 +1,47 @@
+name: Lucis
+description: Throws electrical bolts at adjacent enemies.
+size: 4
+health: 2100
+type: PowerTurret
+range: 160
+reload: 90
+rotateSpeed: 30
+recoil: 8
+category: turret
+squareSprite: false
+shootCone: 360
+shootY: 0
+outlineIcon: false
+shootSound: laser
+targetAir: true
+requirements: [
+  item-magnetite/460
+  item-rose-quartz/340
+  item-wolfram/110
+  item-refined-tungsten/60
+]
+heatColor: ffffff4D
+
+
+consumes: {
+  power: 12
+}
+
+
+shoot: {
+}
+shootType: {
+}
+
+
+drawer: {
+  type: DrawTurret
+  basePrefix: turret-
+}
+
+
+research: {
+  parent: incurse
+  objectives: [item-refined-tungsten]
+}
+researchCostMultiplier: 0.1
