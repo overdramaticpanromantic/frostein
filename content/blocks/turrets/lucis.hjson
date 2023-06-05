@@ -4,12 +4,12 @@ size: 4
 health: 2100
 type: PowerTurret
 range: 160
-reload: 60
+reload: 120
 rotateSpeed: 30
 recoil: 2
 category: turret
 squareSprite: false
-shootY: 0
+shootY: 16
 hasLiquids: true
 outlineIcon: true
 shootSound: laser
@@ -38,7 +38,7 @@ shoot: {
 }
 shootType: {
   type: LaserBulletType
-  length: 80
+  length: 160
   damage: 35
   collidesAir: true
   moveWhileCharging: false
