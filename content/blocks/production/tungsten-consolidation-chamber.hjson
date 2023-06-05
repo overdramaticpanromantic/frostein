@@ -53,16 +53,6 @@ drawer: {
       drawLiquid: cryofluid
     }
     {
-      //draws a box shader for liquids or something
-      type: DrawLiquidTile
-      
-      //pixels from edge to do it from
-      padding: 6
-      
-      //liquid to draw
-      drawLiquid: cryofluid
-    }
-    {
       //draws a -liquid sprite by default, which specific -liquid sprite can be defined using suffix
       type: DrawLiquidRegion
 
