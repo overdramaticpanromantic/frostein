@@ -16,7 +16,8 @@ shootSound: laser
 targetAir: true
 chargeSound: laserCharge
 shake: 2
-moveWhileCharging: false
+inaccuracy: 5
+moveWhileCharging: true
 requirements: [
   item-magnetite/460
   item-rose-quartz/340
