@@ -26,7 +26,7 @@ requirements: [
   item-refined-tungsten/60
 ]
 heatColor: c7723a
-coolantMultiplier: 1.25
+coolantMultiplier: 1.5
 
 
 consumes: {
