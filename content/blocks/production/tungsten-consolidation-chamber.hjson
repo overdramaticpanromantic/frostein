@@ -8,6 +8,7 @@ category: production
 researchCostMultiplier: 0.1
 research: wolfram-flux-basin
 category: crafting
+squareSprite: false
 
 
 requirements: [
