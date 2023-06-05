@@ -32,10 +32,9 @@ consumes: {
 
 
 shoot: {
-  firstShotDelay: 60
+  firstShotDelay: 12
   shots: 5
   shotDelay: 12
-  firstShotDelay: 40
 }
 shootType: {
   type: LaserBulletType
@@ -49,6 +48,7 @@ shootType: {
   hitSize: 4
   hitEffect: hitLancer
   buildingDamageMultiplier: 0.25
+  colors: [2b6f6c, 319792, 3ac7bf]
 }
 
 
