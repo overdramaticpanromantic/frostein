@@ -22,6 +22,7 @@ consumes: {
   liquids: [
     cryofluid/0.2
     liquid-molten-tungsten/0.2
+  ]
 }
 outputItem: item-refined-tungsten/4
 hasLiquids: true
