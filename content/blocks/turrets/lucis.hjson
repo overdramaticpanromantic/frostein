@@ -15,10 +15,7 @@ liquidCapacity: 24
 outlineIcon: true
 shootSound: laser
 targetAir: true
-chargeSound: laserCharge
 shake: 2
-inaccuracy: 5
-moveWhileCharging: false
 requirements: [
   item-magnetite/460
   item-rose-quartz/340
@@ -42,18 +39,16 @@ shoot: {
   shotDelay: 6
 }
 shootType: {
-  type: LaserBulletType
+  type: ContinuousLaserBulletType
   length: 160
-  damage: 40
+  damage: 45
   collidesAir: true
   accurateDelay: false
   lifetime: 12
-  chargeEffect: lancerLaserCharge
-  drawSize: 400
+  fadeTime: 6
   hitSize: 4
-  hitEffect: hitLancer
   buildingDamageMultiplier: 0.25
-  colors: [2b6f6c, 319792, 3ac7bf]
+  colors: [2b6f6c, 2b6f6c, 319792, 319792, 3ac7bf]
 }
 
 
