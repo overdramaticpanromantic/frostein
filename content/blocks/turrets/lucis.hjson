@@ -38,7 +38,6 @@ shootType: {
   length: 160
   damage: 30
   collidesAir: true
-  accurateDelay: false
   lifetime: 60
   fadeTime: 12
   hitSize: 4
