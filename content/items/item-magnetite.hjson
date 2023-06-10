@@ -5,3 +5,4 @@ color: 44515a
 charge: 0.25
 hardness: 1
 research: "core-snow"
+hiddenOnPlanets: [serpulo, erekir]
