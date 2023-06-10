@@ -5,3 +5,4 @@ color: 7e8862
 charge: 0.1
 hardness: 2
 research: item-magnetite
+hiddenOnPlanets: [serpulo, erekir]
